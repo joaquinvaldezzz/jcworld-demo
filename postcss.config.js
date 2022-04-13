@@ -8,6 +8,8 @@ module.exports = {
         const innerMatches = content.match(/[^<>"'`\s.()]*[^<>"'`\s.():]+/g) || []
         return broadMatches.concat(innerMatches)
       },
+      keyframes: true,
+      variables: true,
     },
     'postcss-import': {},
     'postcss-sort-media-queries': {},
