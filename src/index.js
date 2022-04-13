@@ -1,2 +1,1 @@
-import './styles/font-awesome.css'
-import './styles/tailwind.css'
+import './styles/index.css'
