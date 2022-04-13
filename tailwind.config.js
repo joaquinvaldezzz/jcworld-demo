@@ -13,6 +13,7 @@ module.exports = {
       colors: {
         'jungle-green': '#2db97a',
         sunglow: '#ffce31',
+        'maya-blue': '#4ab5f8',
       },
     },
   },
