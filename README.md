@@ -1,20 +1,17 @@
-# Vanilla HTML, CSS, and JavaScript Template
+# JC World Demo Website
 
-A simple vanilla template for static website using [Vite](https://vitejs.dev) and
-[PostCSS](https://github.com/postcss/postcss).
-
-## Run Locally
+This demo uses [Vite](https://vitejs.dev), [PostCSS](https://github.com/postcss/postcss), and [Tailwind CSS](https://tailwindcss.com). Here is how you can run the project locally:
 
 1. Download or clone the project
 
    ```sh
-   git clone https://github.com/joaquin-wakin/vanilla-html.git
+   git clone https://github.com/joaquinvaldezzz/jcworld-demo.git
    ```
 
 2. Go to the project directory
 
    ```sh
-   cd vanilla-html
+   cd jcworld-demo
    ```
 
 3. Install dependencies
