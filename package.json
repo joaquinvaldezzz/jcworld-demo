@@ -5,8 +5,7 @@
     "build": "vite build && yarn format",
     "serve": "vite preview",
     "lint": "eslint .",
-    "format": "prettier --write .",
-    "stylelint": "stylelint --fix 'src/**/*.ccss'"
+    "format": "prettier --write ."
   },
   "browserslist": [
     "> 0.5%"
@@ -15,7 +14,7 @@
     "@fortawesome/fontawesome-free": "^6.1.1",
     "autoprefixer": "^10.4.4",
     "tailwindcss": "^3.0.24",
-    "vite": "^2.9.1"
+    "vite": "^2.9.5"
   },
   "devDependencies": {
     "@fullhuman/postcss-purgecss": "^4.1.3",
