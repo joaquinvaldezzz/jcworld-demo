@@ -1,7 +1,7 @@
 const plugin = require('tailwindcss/plugin')
 
 module.exports = {
-  content: ['./index.html', './src/**/*.js'],
+  content: ['./index.html', './src/**/*.vue'],
   theme: {
     container: {
       center: true,
@@ -18,7 +18,7 @@ module.exports = {
     },
   },
   plugins: [
-    plugin(function ({ addComponents, theme }) {
+    plugin(({ addComponents, theme }) => {
       addComponents({
         '.active-link': {
           borderBottomWidth: theme('borderWidth.4'),
