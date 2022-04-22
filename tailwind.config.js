@@ -18,6 +18,7 @@ module.exports = {
         'burnt-sienna': '#ed5f38',
         azure: '#f8ffff',
         'alice-blue': '#e4f4ff',
+        arsenic: '#394149',
         'maya-blue': '#4ab5f8',
       },
       aspectRatio: {
