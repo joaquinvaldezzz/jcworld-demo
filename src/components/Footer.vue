@@ -5,7 +5,7 @@
         <div>
           <img class="h-2w-24 w-24" src="/images/jcworld-logotype.png" alt="JC World" />
           <p class="mt-2 text-xl">Subscribe and stay in the loop!</p>
-          <form class="mt-2 flex" action="/">
+          <form class="mt-2 flex flex-col sm:flex-row" action="/">
             <input class="inline-block bg-white/50 px-3 py-2 text-black shadow-sm focus:outline-none" type="email" />
             <button class="inline-block bg-sunglow px-3 py-2 uppercase shadow-sm" type="submit">Subscribe</button>
           </form>
