@@ -1,5 +1,5 @@
 <template>
-  <header class="shadow-xl">
+  <header class="relative shadow-xl">
     <div class="hidden sm:block sm:bg-jungle-green sm:text-sm sm:text-white">
       <div class="sm:container sm:flex sm:items-center sm:justify-between sm:py-4">
         <div class="flex items-center space-x-4 md:space-x-6">
