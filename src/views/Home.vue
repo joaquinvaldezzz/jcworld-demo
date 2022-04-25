@@ -2,6 +2,36 @@
   <main class="bg-azure">
     <section class="py-8 sm:py-12 md:py-16">
       <div class="container">
+        <div class="md:mx-auto md:max-w-lg lg:max-w-none" role="grid">
+          <div class="grid gap-8 lg:grid-cols-2 lg:items-center" role="row">
+            <div role="gridcell">
+              <div class="text-sm uppercase tracking-wider text-vulcan">Lorem ipsum dolor sit amet.</div>
+              <h1 class="mt-2 text-4xl font-bold uppercase tracking-tight text-vulcan md:text-5xl lg:text-6xl xl:text-7xl 2xl:text-8xl">
+                JC World
+                <br class="hidden lg:block" />
+                Toy Box
+              </h1>
+              <p class="mt-4 text-vulcan md:text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore necessitatibus optio deserunt voluptatibus omnis libero architecto.</p>
+              <div class="mt-4">
+                <a class="inline-flex items-center rounded-full bg-sunglow px-6 py-2 text-sm uppercase tracking-wider text-vulcan" href="#">
+                  <div class="font-bold tracking-wide">Subscribe</div>
+                  <svg class="h-6 w-6 fill-transparent stroke-current stroke-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="m9 5 7 7-7 7" />
+                  </svg>
+                </a>
+              </div>
+            </div>
+
+            <div role="gridcell">
+              <img class="sm:mx-auto sm:w-10/12 md:mx-0 md:w-auto" src="/images/jc-world-package.png" alt="JC World" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-8 sm:py-12 md:py-16">
+      <div class="container">
         <h2 class="text-center text-xl uppercase md:text-3xl lg:text-4xl">What's Inside</h2>
         <div class="text-center text-sm uppercase tracking-wide text-vulcan lg:mt-0.5">Each box will contain 5-6 sensory items</div>
         <div class="mt-8 md:mx-auto md:max-w-lg lg:max-w-none" role="grid">
@@ -69,7 +99,7 @@
       <div class="container">
         <div class="text-center text-sm uppercase tracking-wide text-vulcan">Get to know</div>
         <h2 class="text-center text-xl uppercase md:text-3xl lg:mt-0.5 lg:text-4xl">About Us</h2>
-        <div class="mt-8" role="grid">
+        <div class="mt-8 md:mx-auto md:max-w-lg lg:max-w-none" role="grid">
           <div class="grid gap-8 lg:grid-cols-2" role="row">
             <div role="gridcell">
               <h3 class="text-xl font-semibold text-vulcan md:text-3xl lg:text-4xl">Our Mission</h3>
