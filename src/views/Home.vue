@@ -1,7 +1,9 @@
 <template>
   <main class="bg-azure">
-    <section class="py-8 sm:py-12 md:py-16">
-      <div class="container">
+    <section class="relative bg-charlotte py-8 sm:pt-24 sm:pb-12 md:pb-16">
+      <img class="hidden sm:absolute sm:inset-x-0 sm:top-0 sm:block sm:select-none lg:mx-auto lg:max-w-4xl xl:max-w-6xl" src="/images/clouds-and-stars.png" alt="Clouds and stars" />
+      <img class="absolute inset-x-0 bottom-0 select-none" src="/svg/clouds.svg" alt="Clouds" />
+      <div class="container relative">
         <div class="md:mx-auto md:max-w-lg lg:max-w-none" role="grid">
           <div class="grid gap-8 lg:grid-cols-2 lg:items-center" role="row">
             <div role="gridcell">
