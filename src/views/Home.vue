@@ -34,6 +34,35 @@
 
     <section class="py-8 sm:py-12 md:py-16">
       <div class="container">
+        <div role="grid">
+          <div class="grid gap-8 md:grid-cols-2 md:items-center xl:mx-auto xl:max-w-4xl" role="row">
+            <div class="md:order-2" role="gridcell">
+              <h2 class="text-center text-xl font-bold text-vulcan md:text-left md:text-2xl lg:text-4xl lg:tracking-tight xl:text-5xl">Here's a look at our recent boxes</h2>
+            </div>
+
+            <div class="md:order-1" role="gridcell">
+              <img class="aspect-4/3 rounded-2xl object-cover object-top" src="/images/jc-world-package-1.jpg" alt="JC World Package 1" />
+            </div>
+
+            <div class="md:order-3" role="gridcell">
+              <div class="rounded-2xl bg-alice-blue p-6">
+                <p class="text-grey">Rerum sit quia sed quae laboriosam fuga saepe. Consequuntur dolor et odit praesentium perspiciatis qui quis quam. Dolores quasi voluptates et temporibus alias ducimus. Rerum sit quia sed quae laboriosam fuga saepe.</p>
+                <div class="mt-4">
+                  <a class="inline-block rounded-full bg-sunglow px-5 py-2 text-sm font-bold uppercase tracking-wide" href="#">Get started now</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="md:order-4" role="gridcell">
+              <img class="aspect-4/3 rounded-2xl object-cover" src="/images/jc-world-package-2.jpg" alt="JC World Package 2" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-8 sm:py-12 md:py-16">
+      <div class="container">
         <h2 class="text-center text-xl uppercase md:text-3xl lg:text-4xl">What's Inside</h2>
         <div class="text-center text-sm uppercase tracking-wide text-vulcan lg:mt-0.5">Each box will contain 5-6 sensory items</div>
         <div class="mt-8 md:mx-auto md:max-w-lg lg:max-w-none" role="grid">
