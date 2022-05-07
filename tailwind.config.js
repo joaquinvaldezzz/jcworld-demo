@@ -1,3 +1,4 @@
+const defaultTheme = require('tailwindcss/defaultTheme')
 const plugin = require('tailwindcss/plugin')
 
 module.exports = {
@@ -28,6 +29,10 @@ module.exports = {
       boxShadow: {
         sm: '0 4px 4px 0 rgba(0 0 0 / 0.25)',
         xl: '0 0 14px 0 rgba(0 0 0 / 0.25)',
+      },
+      fontFamily: {
+        sans: ['Inter var', ...defaultTheme.fontFamily.sans],
+        display: ['Fredoka One', ...defaultTheme.fontFamily.sans],
       },
     },
   },

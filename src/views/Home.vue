@@ -63,7 +63,7 @@
 
     <section class="py-8 sm:py-12 md:py-16">
       <div class="container">
-        <h2 class="text-center text-xl uppercase md:text-3xl lg:text-4xl">What's Inside</h2>
+        <h2 class="text-center font-display text-xl uppercase md:text-3xl lg:text-4xl">What's Inside</h2>
         <div class="text-center text-sm uppercase tracking-wide text-vulcan lg:mt-0.5">Each box will contain 5-6 sensory items</div>
         <div class="mt-8 md:mx-auto md:max-w-lg lg:max-w-none" role="grid">
           <div class="grid gap-8 lg:grid-cols-2 lg:items-center" role="row">
@@ -129,7 +129,7 @@
     <section class="py-8 sm:py-12 md:py-16">
       <div class="container">
         <div class="text-center text-sm uppercase tracking-wide text-vulcan">Get to know</div>
-        <h2 class="text-center text-xl uppercase md:text-3xl lg:mt-0.5 lg:text-4xl">About Us</h2>
+        <h2 class="text-center font-display text-xl uppercase md:text-3xl lg:mt-0.5 lg:text-4xl">About Us</h2>
         <div class="mt-8 md:mx-auto md:max-w-lg lg:max-w-none" role="grid">
           <div class="grid gap-8 lg:grid-cols-2" role="row">
             <div role="gridcell">
@@ -155,7 +155,7 @@
       <div class="container">
         <div class="relative">
           <div class="text-center text-sm uppercase tracking-wide text-vulcan">Our Latest</div>
-          <h2 class="text-center text-xl uppercase md:text-3xl lg:mt-0.5 lg:text-4xl">Blog Posts</h2>
+          <h2 class="text-center font-display text-xl uppercase md:text-3xl lg:mt-0.5 lg:text-4xl">Blog Posts</h2>
           <div class="mt-8 sm:mx-auto sm:max-w-sm md:mt-12 lg:mt-16 lg:max-w-none" role="grid">
             <div class="grid gap-8 lg:mx-auto lg:max-w-5xl lg:grid-cols-3" role="row">
               <div role="gridcell">
@@ -211,7 +211,7 @@
     <section class="py-8 sm:py-12 md:py-16">
       <div class="container">
         <div class="text-center text-sm uppercase tracking-wide text-vulcan">Happy to be</div>
-        <h2 class="text-center text-xl uppercase md:text-3xl lg:mt-0.5 lg:text-4xl">Featured in</h2>
+        <h2 class="text-center font-display text-xl uppercase md:text-3xl lg:mt-0.5 lg:text-4xl">Featured in</h2>
         <div class="mt-8" role="grid">
           <div class="grid grid-cols-2 items-center gap-8 md:grid-cols-4" role="row">
             <div role="gridcell">
