@@ -34,6 +34,44 @@
 
     <section class="py-8 sm:py-12 md:py-16">
       <div class="container">
+        <div class="md:mx-auto md:max-w-md lg:mx-0 lg:max-w-none" role="grid">
+          <div class="grid gap-8 sm:mx-auto sm:max-w-sm lg:mx-0 lg:max-w-none lg:grid-cols-3" role="row">
+            <div role="gridcell">
+              <div class="overflow-hidden rounded-2xl bg-burnt-sienna text-white">
+                <img class="aspect-video object-cover object-bottom" src="/images/first.png" alt="" />
+                <div class="p-6">
+                  <h3 class="text-xl font-semibold md:text-2xl">Lorem ipsum dolor sit.</h3>
+                  <p class="mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+              </div>
+            </div>
+
+            <div role="gridcell">
+              <div class="overflow-hidden rounded-2xl bg-gold-tips text-white">
+                <img class="aspect-video object-cover object-bottom" src="/images/second.png" alt="" />
+                <div class="p-6">
+                  <h3 class="text-xl font-semibold md:text-2xl">Lorem ipsum dolor sit.</h3>
+                  <p class="mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+              </div>
+            </div>
+
+            <div role="gridcell">
+              <div class="overflow-hidden rounded-2xl bg-malibu text-white">
+                <img class="aspect-video object-cover object-bottom" src="/images/third.png" alt="" />
+                <div class="p-6">
+                  <h3 class="text-xl font-semibold md:text-2xl">Lorem ipsum dolor sit.</h3>
+                  <p class="mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-8 sm:py-12 md:py-16">
+      <div class="container">
         <div role="grid">
           <div class="grid gap-8 md:grid-cols-2 md:items-center xl:mx-auto xl:max-w-4xl" role="row">
             <div class="md:order-2" role="gridcell">
@@ -130,7 +168,7 @@
       <div class="container">
         <div class="text-center text-sm uppercase tracking-wide text-vulcan">Get to know</div>
         <h2 class="text-center font-display text-xl uppercase md:text-3xl lg:mt-0.5 lg:text-4xl">About Us</h2>
-        <div class="mt-8 md:mx-auto md:max-w-lg lg:max-w-none" role="grid">
+        <div class="mt-8 sm:mx-auto sm:max-w-md lg:max-w-none" role="grid">
           <div class="grid gap-8 lg:grid-cols-2" role="row">
             <div role="gridcell">
               <h3 class="text-xl font-semibold text-vulcan md:text-3xl lg:text-4xl">Our Mission</h3>

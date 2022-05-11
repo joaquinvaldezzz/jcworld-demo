@@ -15,6 +15,8 @@ module.exports = {
         'jungle-green': '#2db97a',
         charlotte: '#98d6e5',
         sunglow: '#ffce31',
+        'gold-tips': '#e8ad21',
+        malibu: '#67b5e4',
         vulcan: '#35393e',
         grey: '#7a7979',
         'burnt-sienna': '#ed5f38',
