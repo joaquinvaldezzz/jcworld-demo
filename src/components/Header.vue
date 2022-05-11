@@ -45,13 +45,19 @@
       </div>
     </div>
 
-    <div class="container flex items-center justify-between">
-      <a class="py-4 md:py-2 lg:py-0" href="#">
+    <div class="container flex items-center">
+      <button class="lg:hidden" id="mobile-nav-button">
+        <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24">
+          <path stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 18h16M4 6h16H4Zm0 6h16H4Z" />
+        </svg>
+      </button>
+
+      <a class="ml-4 py-4 md:py-2 lg:py-0" href="#">
         <span class="sr-only">JC World</span>
         <img class="h-16 w-16 md:h-20 md:w-20" src="/images/jcworld-logotype.png" alt="JC World" />
       </a>
 
-      <nav class="flex lg:items-center lg:space-x-4" role="menu" aria-label="Main Menu">
+      <nav class="ml-auto flex lg:items-center lg:space-x-4" role="menu" aria-label="Main Menu">
         <div class="hidden lg:flex lg:items-center lg:space-x-6 lg:font-bold">
           <a class="lg:block lg:py-10" href="/">Home</a>
           <a class="lg:block lg:py-10" href="#">Get Started</a>
@@ -72,5 +78,57 @@
         </div>
       </nav>
     </div>
+
+    <div class="fixed inset-x-2 top-2 z-20 hidden rounded-xl bg-white p-6 shadow-lg lg:hidden" id="mobile-navigation">
+      <div class="flex items-center justify-between">
+        <a href="#">
+          <span class="sr-only">JC World</span>
+          <img class="h-12 w-12" src="/images/jcworld-logotype.png" alt="JC World" />
+        </a>
+
+        <button id="mobile-close-button">
+          <svg class="h-6 w-6" viewBox="0 0 24 24">
+            <path stroke="#9ca3af" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m6 6 12 12M6 18 18 6 6 18Z" />
+          </svg>
+        </button>
+      </div>
+
+      <nav class="mt-6 space-y-1" aria-label="Mobile navigaion">
+        <a class="-mx-3 block rounded-lg bg-slate-100 px-3 py-2" href="/">Home</a>
+        <a class="-mx-3 block rounded-lg px-3 py-2 hover:bg-slate-50" href="#">Get Started</a>
+        <a class="-mx-3 block rounded-lg px-3 py-2 hover:bg-slate-50" href="#">Shop</a>
+        <a class="-mx-3 block rounded-lg px-3 py-2 hover:bg-slate-50" href="#">About Us</a>
+        <a class="-mx-3 block rounded-lg px-3 py-2 hover:bg-slate-50" href="#">FAQ</a>
+        <a class="-mx-3 block rounded-lg px-3 py-2 hover:bg-slate-50" href="#">Contact Us</a>
+        <a class="-mx-3 block rounded-lg px-3 py-2 hover:bg-slate-50" href="#">Blog</a>
+      </nav>
+    </div>
+
+    <div class="fixed inset-0 z-10 hidden h-screen w-screen bg-black/50 lg:hidden" id="mobile-nav-overlay" aria-label="Mobile navigation overlay"></div>
   </header>
 </template>
+
+<script>
+function mobileNav() {
+  const mobileNavButton = document.getElementById('mobile-nav-button')
+  const mobileNavMenu = document.getElementById('mobile-navigation')
+  const mobileCloseButton = document.getElementById('mobile-close-button')
+  const mobileNavOverlay = document.getElementById('mobile-nav-overlay')
+
+  mobileNavButton.addEventListener('click', () => {
+    mobileNavMenu.classList.remove('hidden')
+    mobileNavOverlay.classList.remove('hidden')
+  })
+
+  mobileCloseButton.addEventListener('click', () => {
+    mobileNavMenu.classList.add('hidden')
+    mobileNavOverlay.classList.add('hidden')
+  })
+}
+
+export default {
+  mounted: () => {
+    mobileNav()
+  },
+}
+</script>
