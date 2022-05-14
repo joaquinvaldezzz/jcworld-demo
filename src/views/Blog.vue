@@ -95,3 +95,11 @@
     </section>
   </main>
 </template>
+
+<script>
+export default {
+  mounted: () => {
+    document.title = 'Blog'
+  },
+}
+</script>
