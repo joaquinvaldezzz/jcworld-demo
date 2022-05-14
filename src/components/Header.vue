@@ -63,9 +63,9 @@
           <a class="lg:block lg:py-10" href="#">Get Started</a>
           <a class="lg:block lg:py-10" href="#">Shop</a>
           <a class="lg:block lg:py-10" href="#">About Us</a>
-          <a class="lg:block lg:py-10" href="#">FAQ</a>
+          <a class="lg:block lg:py-10" href="/faq">FAQ</a>
           <a class="lg:block lg:py-10" href="#">Contact Us</a>
-          <a class="lg:block lg:py-10" href="#">Blog</a>
+          <a class="lg:block lg:py-10" href="/blog">Blog</a>
         </div>
         <div class="hidden lg:block lg:select-none">&verbar;</div>
         <div class="flex items-center space-x-2 font-bold lg:space-x-4">
