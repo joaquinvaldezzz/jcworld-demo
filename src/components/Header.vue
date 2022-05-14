@@ -98,9 +98,9 @@
         <a class="-mx-3 block rounded-lg px-3 py-2 hover:bg-slate-50" href="#">Get Started</a>
         <a class="-mx-3 block rounded-lg px-3 py-2 hover:bg-slate-50" href="#">Shop</a>
         <a class="-mx-3 block rounded-lg px-3 py-2 hover:bg-slate-50" href="#">About Us</a>
-        <a class="-mx-3 block rounded-lg px-3 py-2 hover:bg-slate-50" href="#">FAQ</a>
+        <a class="-mx-3 block rounded-lg px-3 py-2 hover:bg-slate-50" href="/faq">FAQ</a>
         <a class="-mx-3 block rounded-lg px-3 py-2 hover:bg-slate-50" href="#">Contact Us</a>
-        <a class="-mx-3 block rounded-lg px-3 py-2 hover:bg-slate-50" href="#">Blog</a>
+        <a class="-mx-3 block rounded-lg px-3 py-2 hover:bg-slate-50" href="/blog">Blog</a>
       </nav>
     </div>
 
