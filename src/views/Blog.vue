@@ -1,0 +1,97 @@
+<template>
+  <main>
+    <section class="py-8 md:py-12 lg:py-16 xl:py-20 2xl:py-24">
+      <div class="container">
+        <div class="md:mx-auto md:max-w-md lg:max-w-2xl xl:max-w-3xl">
+          <h2 class="text-2xl font-bold text-maya-blue">Latest Posts</h2>
+          <div class="mt-4" role="grid">
+            <div class="grid gap-8 lg:grid-cols-2 lg:items-center lg:gap-12" role="row">
+              <div role="gridcell">
+                <img class="rounded-2xl" src="https://images.unsplash.com/photo-1515488042361-ee00e0ddd4e4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1080&q=80" alt="Boy sitting on white cloth surrounded by toys" />
+              </div>
+              <div role="gridcell">
+                <h3 class="text-xl font-bold">Lorem ipsum dolor sit amet consectetur.</h3>
+                <p class="mt-2 text-grey">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti ipsum adipisci ipsa.</p>
+                <div class="mt-4">
+                  <div class="text-sm font-semibold">Posted on</div>
+                  <div class="text-sm font-semibold text-maya-blue" aria-label="Date posted">October 5, 2022</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="mt-8 text-xl font-bold">Categories</div>
+          <div class="mt-4 flex space-x-4">
+            <button class="rounded-full bg-light-cyan px-4 py-2 text-sm font-medium text-dodger-blue focus:ring-2 focus:ring-dodger-blue focus:ring-offset-2">Filter</button>
+            <button class="rounded-full bg-light-cyan px-4 py-2 text-sm font-medium text-dodger-blue focus:ring-2 focus:ring-dodger-blue focus:ring-offset-2">Filter</button>
+            <button class="rounded-full bg-light-cyan px-4 py-2 text-sm font-medium text-dodger-blue focus:ring-2 focus:ring-dodger-blue focus:ring-offset-2">Filter</button>
+          </div>
+
+          <h2 class="mt-8 text-2xl font-bold md:mt-12">Featured Posts</h2>
+          <div class="mt-4" role="grid">
+            <div class="grid gap-8 lg:grid-cols-2 lg:gap-12" role="row">
+              <div role="gridcell">
+                <h3 class="text-xl font-bold">Lorem ipsum dolor sit amet consectetur.</h3>
+                <p class="mt-2 text-grey">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti ipsum adipisci ipsa.</p>
+                <div class="mt-4">
+                  <div class="text-sm font-semibold">Posted on</div>
+                  <div class="text-sm font-semibold text-maya-blue" aria-label="Date posted">October 5, 2022</div>
+                </div>
+              </div>
+
+              <div role="gridcell">
+                <h3 class="text-xl font-bold">Lorem ipsum dolor sit amet consectetur.</h3>
+                <p class="mt-2 text-grey">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti ipsum adipisci ipsa.</p>
+                <div class="mt-4">
+                  <div class="text-sm font-semibold">Posted on</div>
+                  <div class="text-sm font-semibold text-maya-blue" aria-label="Date posted">October 5, 2022</div>
+                </div>
+              </div>
+
+              <div role="gridcell">
+                <h3 class="text-xl font-bold">Lorem ipsum dolor sit amet consectetur.</h3>
+                <p class="mt-2 text-grey">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti ipsum adipisci ipsa.</p>
+                <div class="mt-4">
+                  <div class="text-sm font-semibold">Posted on</div>
+                  <div class="text-sm font-semibold text-maya-blue" aria-label="Date posted">October 5, 2022</div>
+                </div>
+              </div>
+
+              <div role="gridcell">
+                <h3 class="text-xl font-bold">Lorem ipsum dolor sit amet consectetur.</h3>
+                <p class="mt-2 text-grey">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti ipsum adipisci ipsa.</p>
+                <div class="mt-4">
+                  <div class="text-sm font-semibold">Posted on</div>
+                  <div class="text-sm font-semibold text-maya-blue" aria-label="Date posted">October 5, 2022</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <h2 class="mt-8 text-2xl font-bold text-maya-blue md:mt-12">Popular Articles</h2>
+          <div class="mt-4" role="grid">
+            <div class="grid gap-8 lg:grid-cols-2 lg:gap-12" role="row">
+              <div role="gridcell">
+                <h3 class="text-xl font-bold">Lorem ipsum dolor sit amet consectetur.</h3>
+                <p class="mt-2 text-grey">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti ipsum adipisci ipsa.</p>
+                <div class="mt-4">
+                  <div class="text-sm font-semibold">Posted on</div>
+                  <div class="text-sm font-semibold text-maya-blue" aria-label="Date posted">October 5, 2022</div>
+                </div>
+              </div>
+
+              <div role="gridcell">
+                <h3 class="text-xl font-bold">Lorem ipsum dolor sit amet consectetur.</h3>
+                <p class="mt-2 text-grey">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti ipsum adipisci ipsa.</p>
+                <div class="mt-4">
+                  <div class="text-sm font-semibold">Posted on</div>
+                  <div class="text-sm font-semibold text-maya-blue" aria-label="Date posted">October 5, 2022</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+</template>

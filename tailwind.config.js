@@ -24,6 +24,8 @@ module.exports = {
         'alice-blue': '#e4f4ff',
         arsenic: '#394149',
         'maya-blue': '#4ab5f8',
+        'light-cyan': '#d1f4ff',
+        'dodger-blue': '#0a96ed',
       },
       aspectRatio: {
         '4/3': '4 / 3',
