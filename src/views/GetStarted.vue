@@ -3,7 +3,7 @@
     <section class="py-8">
       <div class="container">
         <div role="grid">
-          <div class="grid gap-8 lg:mx-auto lg:max-w-2xl xl:max-w-none xl:grid-cols-3" role="row">
+          <div class="grid gap-8 lg:mx-auto lg:max-w-3xl xl:max-w-none xl:grid-cols-3" role="row">
             <div role="gridcell"></div>
 
             <div class="xl:col-span-2" role="gridcell">
@@ -11,7 +11,7 @@
                 <div class="grid gap-8 md:grid-cols-2" role="row">
                   <div class="group" role="gridcell">
                     <div class="rounded-2xl bg-alice-blue px-7 py-8 transition group-hover:bg-white group-hover:shadow-xl">
-                      <h3 class="text-xl font-bold">Lorem ipsum dolor sit.</h3>
+                      <h3 class="text-xl font-bold lg:text-2xl">Lorem ipsum dolor sit.</h3>
                       <hr class="my-4" />
                       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla.</p>
                       <ul class="mt-4 space-y-2">
@@ -56,7 +56,7 @@
 
                   <div class="group" role="gridcell">
                     <div class="rounded-2xl bg-alice-blue px-7 py-8 transition group-hover:bg-white group-hover:shadow-xl">
-                      <h3 class="text-xl font-bold">Lorem ipsum dolor sit.</h3>
+                      <h3 class="text-xl font-bold lg:text-2xl">Lorem ipsum dolor sit.</h3>
                       <hr class="my-4" />
                       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla.</p>
                       <ul class="mt-4 space-y-2">
@@ -101,7 +101,7 @@
 
                   <div class="group" role="gridcell">
                     <div class="rounded-2xl bg-alice-blue px-7 py-8 transition group-hover:bg-white group-hover:shadow-xl">
-                      <h3 class="text-xl font-bold">Lorem ipsum dolor sit.</h3>
+                      <h3 class="text-xl font-bold lg:text-2xl">Lorem ipsum dolor sit.</h3>
                       <hr class="my-4" />
                       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla.</p>
                       <ul class="mt-4 space-y-2">
@@ -146,7 +146,7 @@
 
                   <div class="group" role="gridcell">
                     <div class="rounded-2xl bg-alice-blue px-7 py-8 transition group-hover:bg-white group-hover:shadow-xl">
-                      <h3 class="text-xl font-bold">Lorem ipsum dolor sit.</h3>
+                      <h3 class="text-xl font-bold lg:text-2xl">Lorem ipsum dolor sit.</h3>
                       <hr class="my-4" />
                       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla.</p>
                       <ul class="mt-4 space-y-2">
