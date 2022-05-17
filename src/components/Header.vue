@@ -60,7 +60,7 @@
       <nav class="ml-auto flex lg:items-center lg:space-x-4" role="menu" aria-label="Main Menu">
         <div class="hidden lg:flex lg:items-center lg:space-x-6 lg:font-bold">
           <a class="lg:block lg:py-10" href="/">Home</a>
-          <a class="lg:block lg:py-10" href="#">Get Started</a>
+          <a class="lg:block lg:py-10" href="/get-started">Get Started</a>
           <a class="lg:block lg:py-10" href="#">Shop</a>
           <a class="lg:block lg:py-10" href="#">About Us</a>
           <a class="lg:block lg:py-10" href="/faq">FAQ</a>
@@ -93,9 +93,9 @@
         </button>
       </div>
 
-      <nav class="mt-6 space-y-1" aria-label="Mobile navigaion">
+      <nav class="mt-6 space-y-1" aria-label="Mobile navigation">
         <a class="-mx-3 block rounded-lg bg-slate-100 px-3 py-2" href="/">Home</a>
-        <a class="-mx-3 block rounded-lg px-3 py-2 hover:bg-slate-50" href="#">Get Started</a>
+        <a class="-mx-3 block rounded-lg px-3 py-2 hover:bg-slate-50" href="/get-started">Get Started</a>
         <a class="-mx-3 block rounded-lg px-3 py-2 hover:bg-slate-50" href="#">Shop</a>
         <a class="-mx-3 block rounded-lg px-3 py-2 hover:bg-slate-50" href="#">About Us</a>
         <a class="-mx-3 block rounded-lg px-3 py-2 hover:bg-slate-50" href="/faq">FAQ</a>
