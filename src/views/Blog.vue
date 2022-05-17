@@ -1,5 +1,14 @@
 <template>
   <main>
+    <section class="relative bg-charlotte py-32 sm:py-48 lg:py-60 xl:py-80">
+      <img class="absolute inset-x-0 top-0 select-none lg:mx-auto lg:max-w-4xl xl:max-w-6xl" src="/images/clouds-and-stars.png" alt="Clouds and stars" />
+      <img class="absolute inset-x-0 bottom-0 select-none" src="/svg/clouds.svg" alt="Clouds" />
+      <div class="container relative text-vulcan">
+        <div class="text-sm uppercase tracking-wider">Lorem ipsum dolor sit.</div>
+        <h1 class="mt-2 text-4xl font-bold uppercase tracking-tight text-vulcan md:text-5xl lg:text-6xl xl:text-7xl 2xl:text-8xl">Blog Posts</h1>
+      </div>
+    </section>
+
     <section class="py-8 md:py-12 lg:py-16 xl:py-20 2xl:py-24">
       <div class="container">
         <div class="md:mx-auto md:max-w-md lg:max-w-2xl xl:max-w-3xl">

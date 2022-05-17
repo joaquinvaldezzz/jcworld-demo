@@ -1,6 +1,6 @@
 <template>
   <main>
-    <section class="relative bg-charlotte py-8 sm:py-32 md:pt-48 lg:pt-56 xl:pt-80 xl:pb-56">
+    <section class="relative bg-charlotte py-32 sm:py-48 lg:py-60 xl:py-80">
       <img class="hidden sm:absolute sm:inset-x-0 sm:top-0 sm:block sm:select-none lg:mx-auto lg:max-w-4xl xl:max-w-6xl" src="/images/clouds-and-stars.png" alt="Clouds and stars" />
       <img class="absolute inset-x-0 bottom-0 select-none" src="/svg/clouds.svg" alt="Clouds" />
       <div class="container relative">
