@@ -26,6 +26,9 @@ module.exports = {
         'maya-blue': '#4ab5f8',
         'light-cyan': '#d1f4ff',
         'dodger-blue': '#0a96ed',
+        saffron: '#f5c042',
+        pippin: '#fcdcd0',
+        'corn-silk': '#fff7d9',
       },
       aspectRatio: {
         '4/3': '4 / 3',
